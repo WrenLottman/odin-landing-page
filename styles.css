@@ -45,3 +45,12 @@ body {
     max-width: 200px;
     max-height: fit-content;
 }
+
+.quote-container {
+    background-color:#e5e7eb;
+}
+
+blockquote {
+    font-size: 36px;
+    color: #1F2937
+}
