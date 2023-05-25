@@ -26,10 +26,22 @@ body {
 
 .bird-img {
     max-width:600px ;
-    max-height:400px ;
+    max-height:fit-content;
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937;
+}
+
+.information-grid > img {
+    border:5px solid #3882F6;
+    max-width: 200px;
+    max-height: fit-content;
 }
