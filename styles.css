@@ -11,6 +11,7 @@ body {
     background-color:#3882F6;
     padding:5px 20px;
     border-radius:10px;
+    border:0px;
 }
 
 .hero-text {
@@ -53,4 +54,28 @@ body {
 blockquote {
     font-size: 36px;
     color: #1F2937
+}
+
+.call-container {
+    background-color: #3882F6;
+    padding: 20px 50px;
+    margin: 80px;
+    border-radius: 10px;
+}
+
+.call-container > p {
+    color:#F9FAF8;
+}
+
+.call-header {
+    font-weight: 600;
+}
+
+.call-container > button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-style: solid;
+    padding:5px 20px;
+    border-color: #F9FAF8;
 }
