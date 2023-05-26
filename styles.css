@@ -30,8 +30,8 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 125px;
+    padding-right: 125px;
 }
 
 .hero-text {
@@ -83,7 +83,7 @@ ul {
 }
 
 .info-box {
-    max-width: 150px;
+    max-width: 160px;
 }
 
 .quote-container {
@@ -92,7 +92,7 @@ ul {
     justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
-    padding: 80px 100px;
+    padding: 80px 150px;
 }
 
 blockquote {
@@ -104,7 +104,7 @@ blockquote {
 .call-container {
     background-color: #3882F6;
     padding: 20px 50px;
-    margin: 80px;
+    margin: 80px 125px;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
