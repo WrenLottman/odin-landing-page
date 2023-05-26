@@ -71,6 +71,7 @@ ul {
     margin-top:50px;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom:60px;
     text-align: center;
 }
 
@@ -87,11 +88,17 @@ ul {
 
 .quote-container {
     background-color:#e5e7eb;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 80px 100px;
 }
 
 blockquote {
     font-size: 36px;
-    color: #1F2937
+    color: #1F2937;
+    margin: 0;
 }
 
 .call-container {
