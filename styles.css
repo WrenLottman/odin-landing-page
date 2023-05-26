@@ -106,9 +106,12 @@ blockquote {
     padding: 20px 50px;
     margin: 80px;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.call-container > p {
+.call-container-left > p {
     color:#F9FAF8;
 }
 
@@ -116,7 +119,7 @@ blockquote {
     font-weight: 600;
 }
 
-.call-container > button {
+.call-container-right > button {
     color: #F9FAF8;
     background-color: #3882F6;
     border-radius: 10px;
