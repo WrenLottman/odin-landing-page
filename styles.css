@@ -50,6 +50,19 @@ ul {
     max-height:fit-content;
 }
 
+.bird-img-smol {
+    border:5px solid #3882F6;
+    max-width: 200px;
+    max-height: fit-content;
+}
+
+.info-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -61,10 +74,10 @@ ul {
     color:#1F2937;
 }
 
-.information-grid > img {
-    border:5px solid #3882F6;
-    max-width: 200px;
-    max-height: fit-content;
+.information-grid {
+    display: flex;
+    gap: 30px;
+    margin-top:50px;
 }
 
 .quote-container {
