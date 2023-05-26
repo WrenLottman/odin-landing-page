@@ -52,15 +52,8 @@ ul {
 
 .bird-img-smol {
     border:5px solid #3882F6;
-    max-width: 200px;
+    max-width: 150px;
     max-height: fit-content;
-}
-
-.info-box {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
 }
 
 .header-logo {
@@ -75,9 +68,21 @@ ul {
 }
 
 .information-grid {
-    display: flex;
-    gap: 30px;
     margin-top:50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.info-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.info-box {
+    max-width: 150px;
 }
 
 .quote-container {
